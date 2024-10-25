@@ -1,0 +1,66 @@
+.body {
+    background-color: rgb(34, 1, 23);
+    font-family: "Atma", cursive;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    color: rgb(202, 2, 2);
+  }
+  
+  .title {
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .delete-button {
+    background-color: rgb(202, 2, 2);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: white;
+    color: rgb(78, 2, 2);
+  }
+  
+  .input-task {
+    border-radius: 10px;
+    border: 2px solid rgb(202, 2, 2);
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .send-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: rgb(202, 2, 2);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(202, 2, 2);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 5px;
+    border-radius: 10px;
+    width: 20rem;
+  }
+  
